@@ -1,2 +1,16 @@
 # Le Croissant🥐
-Trabajo Práctico de página web sobre la panadería "Le Croissant" -  EPET N°20 - 5°2°
+Bienvenid@s a nuestro sitio web acerca de la panaderia del tío de Juliana Ledesma "Le Croissant",
+desarrollado con HTML, CSS y próximamente JS.
+ Incluye animaciones y secciones de productos, historia y contacto.
+
+ ---
+
+ ## Páginas creadas
+ - index.html
+ - productos.html
+ - contacto.html
+
+---
+
+Entrega por: Luisana Parra
+Grupo: Luisana Parra, Jazmin Almaza, Juliana Ledesma, Valentina Pichún, Romina Salvay, Lis Holt
