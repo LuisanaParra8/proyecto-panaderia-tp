@@ -21,3 +21,18 @@
   --r-lg: 16px;
   --container: 1000px;
 }
+
+*{box-sizing:border-box}
+html,body{margin:0; padding:0}
+body{
+  font-family: system-ui, Arial, sans-serif;
+  background: var(--paper); 
+  color: var(--ink);       
+  line-height: 1.55;
+}
+img{ max-width:100%; display:block }
+
+.container{
+  width:min(92%, var(--container));
+  margin-inline:auto;
+}
