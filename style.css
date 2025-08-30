@@ -199,8 +199,3 @@ img.panaderia-foto{
   .historia .historia-grid{ grid-template-columns:1fr; }
   .historia .historia-media img.panaderia-foto{ height:240px; }
 }
-
-/* ===== DEBUG VISUAL (quitar cuando confirmes) ===== */
-.historia .historia-grid{ outline:2px dashed hotpink; }
-.historia .historia-media{ outline:2px dashed dodgerblue; }
-.historia .historia-copy{ outline:2px dashed green; }
