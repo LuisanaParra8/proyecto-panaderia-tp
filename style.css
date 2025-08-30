@@ -68,3 +68,31 @@ img{ max-width:100%; display:block }
   font-weight:600;
 }
 .main-nav a:hover{background:#eadcc3}
+
+.hero-box{
+  margin: 20px auto;                
+  padding: 20px;                  
+  max-width: 500px;                
+  background: #fff;                 
+  border: 2px solid var(--col-dos);    
+  border-radius: 16px;            
+  text-align: center;               
+  box-shadow: var(--shadow);        
+}
+
+.panaderia-nombre{
+  font-size: clamp(2rem, 6vw, 3.5rem); 
+  font-weight: 900;                   
+  color: var(--col-tres);                 
+  margin: 0 0 15px 0;                
+}
+
+.panaderia-logo{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;                
+  border: 3px solid var(--col-tres);
+  display: block;
+  margin: 0 auto;                     
+}
