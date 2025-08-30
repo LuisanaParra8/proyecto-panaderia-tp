@@ -11,4 +11,13 @@
   --col-diez:     #8b4113; 
   --col-once: #d0c4a6;
   --col-doce:  #ae8f72;
+
+  --paper: #fffdf6;           
+  --ink:   #3a2f29;/* texto principal */
+  --line:  rgba(50,20,12,.18); 
+  --shadow: 0 8px 22px rgba(0,0,0,.06);
+
+  --r-xl: 22px;
+  --r-lg: 16px;
+  --container: 1000px;
 }
