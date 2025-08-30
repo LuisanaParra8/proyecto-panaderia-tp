@@ -117,7 +117,7 @@ img{ max-width:100%; display:block }
 
 .historia-grid{
   display: grid;
-  grid-template-columns:minmax(480px, 45%) 1fr;
+  grid-template-columns:480px, 1fr;
   gap: 24px;
   align-items: start;
 }
@@ -156,3 +156,51 @@ img.panaderia-foto{
     height: 240px;      /*esto es para movil*/
   }
 }
+
+/*FIX PACK HISTORIA*/
+.historia .historia-grid{
+  display:grid;
+  grid-template-columns: minmax(420px, 48%) 1fr; 
+  gap:24px;
+  align-items:start;
+}
+
+.historia .historia-media{
+  margin:0;
+  border:2px solid var(--col-dos);
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow: var(--shadow);
+}
+
+.historia .historia-media img.panaderia-foto{
+  width:100%;
+  height:360px;          
+  object-fit:cover;
+  display:block;
+}
+
+.historia .historia-copy{ display:block; }
+.historia .historia-title{
+  margin:0 0 1rem 0;
+  font-size: clamp(1.8rem, 3vw, 2.2rem);
+  color: var(--col-tres);
+  font-weight:800;
+}
+
+.historia .historia-copy p{
+  margin:.6rem 0;
+  color:#4b423b;
+  line-height:1.6;
+}
+
+/*celular*/
+@media (max-width: 900px){
+  .historia .historia-grid{ grid-template-columns:1fr; }
+  .historia .historia-media img.panaderia-foto{ height:240px; }
+}
+
+/* ===== DEBUG VISUAL (quitar cuando confirmes) ===== */
+.historia .historia-grid{ outline:2px dashed hotpink; }
+.historia .historia-media{ outline:2px dashed dodgerblue; }
+.historia .historia-copy{ outline:2px dashed green; }
