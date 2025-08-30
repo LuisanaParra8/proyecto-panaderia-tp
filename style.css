@@ -117,14 +117,14 @@ img{ max-width:100%; display:block }
 
 .historia-grid{
   display: grid;
-  grid-template-columns: 320px 1fr; 
-  gap: 18px;
+  grid-template-columns:minmax(380px, 45%) 1fr;
+  gap: 22px;
   align-items: start;
 }
 
 .historia-media{
   display:block;
-  border-radius: 12px;
+  border-radius: 14px;
   overflow:hidden;              
   border: 2px solid var(--col-dos);
   box-shadow: var(--shadow);
@@ -132,15 +132,15 @@ img{ max-width:100%; display:block }
 
 img.panaderia-foto{
   width: 100%;
-  height: 200px;                 
+  height: 320px;                 
   object-fit: cover;            
   display:block;
 }
 
 .historia-copy p{margin:.45rem 0; color:#4b423b}
 .historia-title{
-  margin: 0 0 .5rem 0;
-  font-size: clamp(1.3rem, 3.2vw, 1.8rem);
+  margin: 0 0 .6rem 0;
+  font-size: clamp(1.5rem, 3.2vw, 2rem);
   color: var(--col-tres);
   font-weight: 800;
 }
@@ -150,6 +150,6 @@ img.panaderia-foto{
     grid-template-columns: 1fr;
   }
   img.panaderia-foto{
-    height: 220px;      /*esto es para movil*/
+    height: 240px;      /*esto es para movil*/
   }
 }
