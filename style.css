@@ -36,3 +36,12 @@ img{ max-width:100%; display:block }
   width:min(92%, var(--container));
   margin-inline:auto;
 }
+
+.site-header{
+  background: #efe5d3;             
+  border: 2px solid var(--col-dos);     
+  border-radius: 999px;             
+  margin: 14px auto;
+  width: min(96%, 1120px);
+  box-shadow: var(--shadow);        
+}
