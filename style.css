@@ -98,6 +98,8 @@ img{ max-width:100%; display:block }
 }
 
 .panaderia-frase{
+  display:block;         
+  text-align:center;
   font-size: clamp(1rem, 3vw, 1.5rem); 
   font-weight: 600;
   color: var(--col-cinco); 
