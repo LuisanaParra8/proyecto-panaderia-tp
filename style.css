@@ -233,17 +233,6 @@ img.panaderia-foto{
 }
 
 
-.intro-only-css,
-.intro-logo {
-  display: none !important;
-  visibility: hidden !important;
-  animation: none !important;
-  pointer-events: none !important;
-}
-@keyframes intro-pop {}
-@keyframes intro-fly {}
-@keyframes intro-fade {}
-
 
 
 
