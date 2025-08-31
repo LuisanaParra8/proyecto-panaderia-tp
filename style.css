@@ -81,10 +81,10 @@ img{ max-width:100%; display:block }
 }
 
 .panaderia-nombre{
-  font-size: clamp(2rem, 6vw, 3.5rem); 
+  font-size: clamp(2.2rem, 6vw, 3.6rem); 
   font-weight: 900;                   
   color: var(--col-tres);                 
-  margin: 0 0 15px 0;                
+  margin: 0 0 15px 0;           
 }
 
 .panaderia-logo{
@@ -199,43 +199,34 @@ img.panaderia-foto{
   .historia .historia-media img.panaderia-foto{height:240px;}
 }
 
-/*Overlay solo-CSS*/
-.intro-only-css{
-  position: fixed; inset: 0;
-  display: grid; place-items: center;
-  background: var(--paper, #fffdf6);
-  z-index: 9999;
-  animation:
-    intro-fly 1.2s cubic-bezier(.2,.8,.2,1) forwards,
-    intro-fade 0.25s linear 1.1s forwards; /* se apaga al final */
+/*animacion h1*/
+#introTitle{
+  animation: popDrop 1.1s cubic-bezier(.2,.8,.2,1) both;
 }
 
-.intro-logo{
-  width: 240px; height: 240px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid var(--col-tres, #674726);
-  box-shadow: 0 12px 28px rgba(0,0,0,.12);
-  animation: intro-pop 1.2s cubic-bezier(.2,.8,.2,1) forwards;
+@keyframes popDrop{
+  0%   { transform: translate(-40vw, -35vh) scale(1.25); opacity: 0; }
+  35%  { transform: translate(0, 0)        scale(1.10);  opacity: 1; }
+  100% { transform: translate(0, 0)        scale(1);     opacity: 1; }
 }
-
-/* Keyframes: pop + vuelo + desvanecer */
-@keyframes intro-pop{
-  0%{ transform: scale(.85); opacity: 0; }
-  35%{ transform: scale(1.15); opacity: 1; }
-  100%{ transform: translate(var(--to-x), var(--to-y)) scale(.75); opacity: 1; }
-}
-
-@keyframes intro-fly{
-  0%{ transform: translate(0,0); }
-  100%{ transform: translate(0,0); } /*contenedor queda en sitio*/
-}
-
-@keyframes intro-fade{
-  to{ opacity: 0; visibility: hidden; pointer-events: none; }
-}
-
-/*si el usuario prefiere menos animación, la saltamos*/
 @media (prefers-reduced-motion: reduce){
-  .intro-only-css{ display:none !important; }
+  #introTitle{ animation: none; }
 }
+
+.intro-only-css,
+.intro-logo {
+  display: none !important;
+  visibility: hidden !important;
+  animation: none !important;
+  pointer-events: none !important;
+}
+@keyframes intro-pop {}
+@keyframes intro-fly {}
+@keyframes intro-fade {}
+
+
+
+
+
+
+
