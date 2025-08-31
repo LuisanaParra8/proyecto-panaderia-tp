@@ -202,7 +202,7 @@ img.panaderia-foto{
 /*Ajustar si me pinta*/
 :root{
   --title-to-x: 0px;     /* + derecha / - izquierda */
-  --title-to-y: 250px;   /* + abajo   / - arriba   */
+  --title-to-y: -250px;   /* + abajo   / - arriba   */
 }
 .intro-title-overlay{
   position: fixed; top:0; left:0; width:100vw; height:100vh;
