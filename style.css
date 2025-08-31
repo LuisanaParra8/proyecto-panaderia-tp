@@ -216,14 +216,22 @@ img.panaderia-foto{
   font-size: 3.5rem;
   font-weight: 900;
   color: var(--col-tres, #674726);
-  animation: it-pop-move 1.2s cubic-bezier(.2,.8,.2,1) forwards;
+  animation: it-pop-move 2s cubic-bezier(.2,.8,.2,1) forwards;
 }
 
 /*efectos*/
 @keyframes it-pop-move{
-  0%   { transform: scale(.85); opacity: 0; }
-  35%  { transform: scale(1.15); opacity: 1; }
-  100% { transform: translate(var(--title-to-x), var(--title-to-y)) scale(.9); opacity: 1; }
+  0% {
+    transform: translateY(0);  
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;            
+  }
+  100% {
+    transform: translateY(-200px); 
+    opacity: 1;
+  }
 }
 @keyframes it-fade{
   to { opacity: 0; visibility: hidden; pointer-events: none; }
