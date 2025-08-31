@@ -200,37 +200,40 @@ img.panaderia-foto{
 }
 
 /*Ajustar si me pinta*/
+:root{
+  --text-x: 0px;
+  --text-y: -260px; 
+}
+
 .intro-title-overlay{
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
+  position: fixed; inset: 0;
+  display: grid; place-items: center;
   background: var(--paper, #fffdf6);
   z-index: 9999;
-  display: flex;
-  justify-content: center; /* centra en X */
-  align-items: center;     /* centra en Y */
-  animation: fadeOut 0.4s linear 2.4s forwards;
-}
+  animation: intro-text-fade .3s linear 1.4s forwards; /* se apaga */
+  }
 
 .intro-title{
   font-size: 3.5rem;
   font-weight: 900;
   color: var(--col-tres, #674726);
-  position: relative;
-  animation: slideUp 2.4s ease forwards;
+  animation: intro-text-pop 1.4s cubic-bezier(.2,.8,.2,1) forwards;
 }
 
 /*efectos*/
-@keyframes slideUp{
-  0%   { top: 0; opacity: 0; }
-  20%  { opacity: 1; }
-  100% { top: -250px; opacity: 1; } 
+@keyframes intro-text-pop{
+  0%   { transform: scale(.85); opacity: 0; }
+  35%  { transform: scale(1.15); opacity: 1; }
+  100% { transform: translate(var(--text-x), var(--text-y)) scale(1); opacity: 1; }
 }
 
-@keyframes fadeOut{
+@keyframes intro-text-fade{
   to { opacity: 0; visibility: hidden; pointer-events: none; }
 }
+
+/* Accesibilidad */
 @media (prefers-reduced-motion: reduce){
-  .intro-title-overlay{ display:none !important; }
+  .intro-text-only{ display:none !important; }
 }
 
 
