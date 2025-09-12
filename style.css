@@ -38,8 +38,8 @@ img{ max-width:100%; display:block }
 }
 
 .site-header{
-  background: #efe5d3;             
-  border: 2px solid var(--col-dos);     
+  background: #cea976; 
+  border: 2px solid var(--col-uno);     
   border-radius: 999px;             
   margin: 14px auto;
   width: min(96%, 1120px);
@@ -54,8 +54,8 @@ img{ max-width:100%; display:block }
 .brand{ 
   display:flex; align-items:center; gap:.55rem;
   padding:.35rem .8rem;
-  background:#f6eddd;
-  border: 2px solid var(--col-dos);
+  background: #f1c587;
+  border: 2px solid var(--col-uno);
   border-radius: 999px;
   color: var(--col-tres);
   font-weight:800;
