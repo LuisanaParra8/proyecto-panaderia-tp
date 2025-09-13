@@ -99,7 +99,12 @@ img{ max-width:100%; display:block }
   animation: gradientMove 14s ease-in-out infinite;
   border-radius: inherit;
   pointer-events: none;
-} 
+  z-index: 0;  
+}
+.hero-box > * {
+  position: relative;
+  z-index: 1;              
+}
 
 .panaderia-nombre{
   font-size: clamp(2.2rem, 6vw, 3.6rem); 
