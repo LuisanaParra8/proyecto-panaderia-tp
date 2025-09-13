@@ -73,26 +73,33 @@ img{ max-width:100%; display:block }
 }
 
 .hero-box{
+  position: relative;
   margin: 20px auto;                
-  padding: 20px;                  
-  max-width: 1000px;                
-  background: linear-gradient(
-  270deg,
-      rgba(181,135,86,.55),
-      rgba(197,172,136,.55),
-      rgba(129,90,64,.55)
-    ),
-  url("imagenes/img2.jpg");
-  background-size: 600% 600%, cover;
-  background-position: 0% 50%, center;
-  background-repeat: no-repeat, no-repeat;
-  background-blend-mode: multiply;        
+  padding: 40px 20px;                  
+  max-width: 1000px;    
+  min-height: "";            
+  background: url("imagenes/img2.jpg") center/cover no-repeat;   
   border: 2px solid var(--col-dos);    
   border-radius: 16px;            
   text-align: center;               
   box-shadow: var(--shadow);
-  animation: gradientMove 20s ease-in-out infinite;
+  overflow: hidden;
 }
+.hero-box::before{
+  content: "";
+  position: absolute;
+  inset: 0;                        
+  background: linear-gradient(
+    270deg,
+    rgba(245, 165, 128, 0.65),          
+    rgba(207, 153, 91, 0.65),         
+    rgba(129,90,64,.65)             
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 14s ease-in-out infinite;
+  border-radius: inherit;
+  pointer-events: none;
+} 
 
 .panaderia-nombre{
   font-size: clamp(2.2rem, 6vw, 3.6rem); 
@@ -246,14 +253,15 @@ img.panaderia-foto{
 }
 
 @keyframes gradientMove{
-  0%   {background-position: 0% 50%,   center;}
-  50%  {background-position: 100% 50%, center;}
-  100% {background-position: 0% 50%,   center;}
+  0%   {background-position: 0% 50%;}
+  50%  {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
 }
 
 /* Accesibilidad */
 @media (prefers-reduced-motion: reduce){
   .intro-text-only{ display:none !important; }
+  .hero-box::before{ animation: none; }
 }
 
 
