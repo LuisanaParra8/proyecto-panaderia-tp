@@ -67,7 +67,10 @@ img{ max-width:100%; display:block }
   border-radius:999px;
   font-weight:600;
 }
-.main-nav a:hover{background:#eadcc3}
+.main-nav a:hover{
+  background: var(--col-uno);
+  color: #f1c587;
+}
 
 .hero-box{
   margin: 20px auto;                
