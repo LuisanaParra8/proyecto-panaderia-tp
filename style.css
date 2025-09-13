@@ -194,6 +194,46 @@ img.panaderia-foto{
   box-shadow: inset 0 4px 8px rgba(0,0,0,0.2);
 }
 
+.site-footer .footer-card{
+  width: min(92%, var(--container));
+  margin-inline: auto;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .4rem;
+}
+
+.site-footer .footer-card p{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.site-footer i{
+  color: var(--col-dos);
+  font-size: 1.15rem;
+  transition: color .25s ease, transform .25s ease;
+}
+.site-footer i:hover{
+  color: var(--col-uno);
+  transform: translateY(-1px);
+}
+
+/*Links*/
+.site-footer a{
+  color: var(--col-uno);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color .25s ease, text-decoration-color .25s ease;
+}
+.site-footer a:hover{
+  color: #f1c587;
+  text-decoration: underline;
+}
 
 /*FIX PACK HISTORIA*/
 .historia .historia-grid{
