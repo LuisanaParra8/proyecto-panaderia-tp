@@ -76,18 +76,22 @@ img{ max-width:100%; display:block }
   margin: 20px auto;                
   padding: 20px;                  
   max-width: 1000px;                
-  background: repeating-linear-gradient(
-    45deg,
-    var(--col-uno),
-    var(--col-uno) 20px,
-    var(--col-dos) 20px,
-    var(--col-dos) 40px
-  );
-  background-size: 200% 200%;            
+  background: linear-gradient(
+  270deg,
+      rgba(181,135,86,.55),
+      rgba(197,172,136,.55),
+      rgba(129,90,64,.55)
+    ),
+  url("imagenes/img2.jpg");
+  background-size: 600% 600%, cover;
+  background-position: 0% 50%, center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: multiply;        
   border: 2px solid var(--col-dos);    
   border-radius: 16px;            
   text-align: center;               
-  box-shadow: var(--shadow);        
+  box-shadow: var(--shadow);
+  animation: gradientMove 20s ease-in-out infinite;
 }
 
 .panaderia-nombre{
@@ -239,6 +243,12 @@ img.panaderia-foto{
 
 @keyframes intro-text-fade{
   to { opacity: 0; visibility: hidden; pointer-events: none; }
+}
+
+@keyframes gradientMove{
+  0%   {background-position: 0% 50%,   center;}
+  50%  {background-position: 100% 50%, center;}
+  100% {background-position: 0% 50%,   center;}
 }
 
 /* Accesibilidad */
