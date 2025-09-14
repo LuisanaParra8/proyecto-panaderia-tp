@@ -2,13 +2,10 @@
   --color-bg-primario: #F3E9DC;
   --color-bg-secundario: #D9C7B8;
   --color-texto-primario: #5C3D2E;
-}
-:root {
-  --espaciado-base: 1rem;
-  --transicion-suave: 0.3s ease;
-  --escala-hover: 1.05;
-}
-:root {
+
+  --fuente-titulo: serif;
+  --fuente-cuerpo: sans-serif;
+
   --espaciado-base: 1rem;
   --transicion-suave: 0.3s ease;
   --escala-hover: 1.05;
