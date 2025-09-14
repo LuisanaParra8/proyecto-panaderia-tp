@@ -14,3 +14,4 @@
   --escala-hover: 1.05;
 }
 .font-title { font-family: var(--fuente-titulo); }
+.font-body  { font-family: var(--fuente-cuerpo); }
