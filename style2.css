@@ -3,3 +3,8 @@
   --color-bg-secundario: #D9C7B8;
   --color-texto-primario: #5C3D2E;
 }
+:root {
+  --espaciado-base: 1rem;
+  --transicion-suave: 0.3s ease;
+  --escala-hover: 1.05;
+}
