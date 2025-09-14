@@ -26,6 +26,15 @@
   color: #f1c587;
   text-decoration:dashed;
 }
+.site-header{
+  background: #cea976; 
+  border: 2px solid var(--col-uno);     
+  border-radius: 999px;             
+  margin: 14px auto;
+  width: min(96%, 1120px);
+  box-shadow: var(--shadow);        
+}
+
 
 
 
