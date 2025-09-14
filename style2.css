@@ -34,7 +34,11 @@
   width: min(96%, 1120px);
   box-shadow: var(--shadow);        
 }
-
+.header-inner{
+  display:flex; align-items:center;
+  gap:1rem;
+  padding:.6rem 1rem;
+}
 
 
 
