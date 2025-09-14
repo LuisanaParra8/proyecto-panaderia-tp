@@ -18,9 +18,7 @@
   --r-lg: 16px;
   --container: 1000px;
 }
-*{
-  box-sizing: border-box
-}
+
 
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
 .main-nav a{
@@ -38,7 +36,7 @@
   background: #cea976; 
   border: 2px solid var(--col-uno);     
   border-radius: 999px;             
-  margin: 14px auto;
+  margin: 30px auto;
   width: min(96%, 1120px);
   box-shadow: var(--shadow);        
 }
@@ -46,7 +44,7 @@
   display:flex;
  align-items:center;
   gap:1rem;
-  padding:0.6rem 1rem;
+  padding:.6rem 1rem;
 }
 .brand{ 
   display:flex; align-items:center; gap:.55rem;
@@ -124,6 +122,7 @@
   object-fit: cover;
 }
 
+<<<<<<< HEAD
 .hover-scale { transition: var(--transicion-suave); }
 
 .hover-scale:hover { transform: scale(var(--escala-hover)); }
@@ -216,3 +215,5 @@
     color: white;
 }
 
+=======
+>>>>>>> 7f52d86 (Arreglando errores)
