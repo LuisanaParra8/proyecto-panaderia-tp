@@ -211,3 +211,8 @@
     text-align: center;
 }
 
+.boton-toggle:hover {
+    background-color: var(--color-texto-primario);
+    color: white;
+}
+
