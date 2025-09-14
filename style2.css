@@ -25,3 +25,45 @@
   font-weight: bold;
   margin-bottom: 1rem;
 }
+.titulo-seccion {
+  font-family: var(--fuente-titulo);
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.linea-decorativa {
+  width: 6rem;
+  height: 0.25rem;
+  background-color: var(--color-bg-primario);
+  margin: 0 auto;
+}
+.titulo-producto {
+  font-family: var(--fuente-titulo);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.tarjeta-producto {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),
+              0 4px 6px -2px rgba(0,0,0,.05);
+  overflow: hidden;
+  transition: transform var(--transicion-suave);
+}
+.contenedor-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.texto-negrita-xl {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.imagen-producto {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+}
