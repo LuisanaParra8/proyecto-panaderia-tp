@@ -13,3 +13,4 @@
 .font-title { font-family: var(--fuente-titulo); }
 .font-body  { font-family: var(--fuente-cuerpo); }
 .bg-primary   { background-color: var(--color-bg-primario); }
+.bg-secondary { background-color: var(--color-bg-secundario); }
