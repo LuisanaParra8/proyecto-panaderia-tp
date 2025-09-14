@@ -26,7 +26,7 @@
 html,body{margin:0; padding:0}
 body{
   font-family: system-ui, Arial, sans-serif;
-  background: var(--paper); 
+  background: #db9e6c;
   color: var(--ink);       
   line-height: 1.55;
 }
