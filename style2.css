@@ -125,3 +125,5 @@
 }
 
 .hover-scale { transition: var(--transicion-suave); }
+
+.hover-scale:hover { transform: scale(var(--escala-hover)); }
