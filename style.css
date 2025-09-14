@@ -38,7 +38,7 @@ img{ max-width:100%; display:block }
 }
 
 .site-header{
-  background: #cea976; 
+  background: #d39c65; 
   border: 2px solid #b36f45;    
   border-radius: 999px;             
   margin: 14px auto;
@@ -171,7 +171,7 @@ img.panaderia-foto{
 .historia-title{
   margin: 0 0 .1rem 0;
   font-size: clamp(1.8rem, 3vw, 2.2rem);
-  color: var(--col-tres);
+  color: var(--col-cinco);
   font-weight: 800;
 }
 
@@ -263,7 +263,7 @@ img.panaderia-foto{
 .historia .historia-title{
   margin:0 0 1rem 0;
   font-size: clamp(1.8rem, 3vw, 2.2rem);
-  color: var(--col-tres);
+  color: var(--col-cinco);
   font-weight:800;
 }
 
