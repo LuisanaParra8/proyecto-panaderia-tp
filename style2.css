@@ -13,3 +13,4 @@
   --transicion-suave: 0.3s ease;
   --escala-hover: 1.05;
 }
+.font-title { font-family: var(--fuente-titulo); }
