@@ -39,6 +39,15 @@
   gap:1rem;
   padding:.6rem 1rem;
 }
+.brand{ 
+  display:flex; align-items:center; gap:.55rem;
+  padding:.35rem .8rem;
+  background: #f1c587;
+  border: 2px solid var(--col-uno);
+  border-radius: 999px;
+  color: var(--col-tres);
+  font-weight:800;
+}
 
 
 
