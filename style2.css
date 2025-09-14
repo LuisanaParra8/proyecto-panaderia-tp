@@ -123,3 +123,5 @@
   height: 16rem;
   object-fit: cover;
 }
+
+.hover-scale { transition: var(--transicion-suave); }
