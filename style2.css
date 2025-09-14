@@ -14,6 +14,18 @@
   --col-tres: #2B1A12;      
   --shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
+.main-nav{ margin-left:auto; display:flex; gap:1rem }
+.main-nav a{
+  text-decoration:none; color:var(--col-tres);
+  padding:.45rem .8rem;
+  border-radius:999px;
+  font-weight:600;
+}
+
+
+
+
+
 .font-title { font-family: var(--fuente-titulo); }
 .font-body  { font-family: var(--fuente-cuerpo); }
 .bg-primary   { background-color: var(--color-bg-primario); }
