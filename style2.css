@@ -1,1 +1,5 @@
-sss
+:root {
+  --color-bg-primario: #F3E9DC;
+  --color-bg-secundario: #D9C7B8;
+  --color-texto-primario: #5C3D2E;
+}
