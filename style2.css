@@ -178,4 +178,9 @@
     opacity: 1;
     filter: contrast(120%);
 }
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+}
 
