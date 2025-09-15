@@ -188,6 +188,8 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   color: white;
+  display: flex;
+  justify-content: center;
   font-weight:600;
   background-color: var(--bg-cinco); 
    margin: 20px auto;  
@@ -196,13 +198,16 @@
   border-radius: 30px;  
   transition: background-color 0.3s, transform 0.2s;
 }
-
 .mi-link:hover {
   background-color:var(--bg-cuatro); 
    transform: scale(1.05); 
 }
 h2{
   font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.mensaje-enviado{
+   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
 
