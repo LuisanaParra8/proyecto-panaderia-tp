@@ -132,3 +132,21 @@
   border-radius: 10px; 
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
+.formulario input[type="submit"] {
+  background: var(--bg-cinco);
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  border: none;
+  padding: 10px;
+}
+.caja-horarios{
+    width: 80%; 
+  max-width: 500px; 
+  margin: 20px auto;  
+  padding: 20px; 
+  background:var(--bg-uno) ;
+  border: 2px solid var(--bg-uno); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
