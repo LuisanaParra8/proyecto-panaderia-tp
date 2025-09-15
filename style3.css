@@ -1,5 +1,5 @@
 :root{ 
-    --bg: #f5ede4;
+    --bg: #3a2f29;
    --bg-uno: #b58756; 
   --bg-dos:        #c5ac88; 
   --bg-tres:   #674726; 
@@ -13,8 +13,9 @@
   --bg-once: #d0c4a6;
   --bg-doce:  #ae8f72;
 
-  --fuente-titulo: serif;
+  --fuente-titulo: Arial;
   --fuente-cuerpo: sans-serif;
+  --shadow: 0 8px 22px rgba(0,0,0,.06);
 
   --r-xl: 22px;
   --r-lg: 16px;
@@ -22,13 +23,14 @@
 
 }
 .caja{
-   background: var(--bg); 
-   border: 2px solid var(--bg);
+   background:#ebb67e; 
+   border: 2px #ebb67e;
     margin: 30px;
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 0%;
     padding-left : 30px;
     padding-right : 30px;
+    line-height: 1.55;
 }
 
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
@@ -40,7 +42,7 @@
 }
 
 .site-header{
-  background: var(--bg-uno); 
+  background: #be8b58; 
   border: 2px solid var(--bg-tres);
   border-radius: 999px;             
   margin: 14px auto;
@@ -59,7 +61,7 @@
   display:flex; align-items:center; gap:.55rem;
   padding:.35rem .8rem;
   background: #f1c587;
-  border: 2px solid var(--bg-uno);
+  border: 2px solid var(--bg-cuatro);
   border-radius: 999px;
   color: var(--bg-tres);
   font-weight:800;
@@ -71,8 +73,8 @@
 }
 
 .main-nav a:hover{
-  background: var(--bg-uno);
-  color: #f7ce96;
+  background: #7e5347;
+  color: #f1c587;
   text-decoration:dashed;
 }
 
@@ -84,6 +86,7 @@
   margin-bottom: 3rem;
 }
 .titulo-principal {
+    background: #be8b58;
     font-family: var(--fuente-titulo);
   font-size: 2.25rem;
   font-weight: bold;
@@ -92,4 +95,16 @@
   border-radius: 40px;
   color: var(--bg-cinco);
 
+}
+
+.redes{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: var(--fuente-cuerpo);
+    font-size: 2.25rem;
+    font-weight: medium;
+    margin-bottom: 3rem;
+    border: 5px double var(--bg-tres);
+    border-radius: 40px;
+    color: var(--bg-cinco);
 }
