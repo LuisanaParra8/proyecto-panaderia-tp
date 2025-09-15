@@ -152,7 +152,7 @@
   transition: background-color 0.3s, transform 0.2s;
 }
 .boton-redondo:hover {
-  background-color: var(--bg-cinco); 
+  background-color: var(--bg-cuatro); 
   transform: scale(1.05); 
 }
 
