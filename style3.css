@@ -124,10 +124,12 @@
 }
 .caja-formulario {
   width: 80%; 
-  max-width: 500px; 
-  margin: 20px auto;  
-  padding: 20px; 
+  max-width: 500px;
   font-weight:700;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  margin: 20px auto;
+  padding: 20px;
   background:var(--bg-uno) ;
   border: 10px double var(--bg-tres);
   border-radius: 40px;
@@ -152,6 +154,8 @@
 .boton-redondo {
   padding: 12px 25px;
   background-color: var(--bg-cinco); 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larges;
   font-weight:700;
   color: white;            
   border: none;            
@@ -168,6 +172,8 @@
 .caja-horarios{
     width: 80%; 
   max-width: 500px; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
   margin: 20px auto;  
   padding: 20px; 
   background:var(--bg-uno) ;
@@ -178,6 +184,8 @@
 }
 .mi-link {
   text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
   color: white;
   font-weight:600;
   background-color: var(--bg-cinco); 
