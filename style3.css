@@ -127,6 +127,7 @@
   max-width: 500px; 
   margin: 20px auto;  
   padding: 20px; 
+  font-weight:700;
   background:var(--bg-uno) ;
   border: 10px double var(--bg-tres);
   border-radius: 40px;
@@ -151,6 +152,7 @@
 .boton-redondo {
   padding: 12px 25px;
   background-color: var(--bg-cinco); 
+  font-weight:700;
   color: white;            
   border: none;            
   border-radius: 30px;
@@ -177,6 +179,7 @@
 .mi-link {
   text-decoration: none;
   color: white;
+  font-weight:600;
   background-color: var(--bg-cinco); 
   padding: 8px 15px;  
   border-radius: 8px;  
