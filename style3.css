@@ -167,3 +167,15 @@
   border-radius: 40px;
   color: var(--bg-cinco);
 }
+.mi-link {
+  text-decoration: none;
+  color: white;
+  background-color: var(--bg-cinco); 
+  padding: 8px 15px;  
+  border-radius: 8px;  
+  transition: background-color 0.3s;
+}
+
+.mi-link:hover {
+  background-color:var(--bg-cuatro); 
+}
