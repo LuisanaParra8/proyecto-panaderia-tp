@@ -201,7 +201,8 @@
   background-color:var(--bg-cuatro); 
    transform: scale(1.05); 
 }
-h4,h2{
+h2{
   font-family: 'Times New Roman', Times, serif;
-
+  text-align: center;
 }
+
