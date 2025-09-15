@@ -140,6 +140,21 @@
   border: none;
   padding: 10px;
 }
+.boton-redondo {
+  padding: 12px 25px;
+  background-color: var(--bg-cinco); 
+  color: white;            
+  border: none;            
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.boton-redondo:hover {
+  background-color: var(--bg-cinco); 
+  transform: scale(1.05); 
+}
+
 .caja-horarios{
     width: 80%; 
   max-width: 500px; 
