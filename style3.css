@@ -141,6 +141,13 @@
   border: none;
   padding: 10px;
 }
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;   
+  box-sizing: border-box;  
+}
 .boton-redondo {
   padding: 12px 25px;
   background-color: var(--bg-cinco); 
@@ -173,9 +180,11 @@
   background-color: var(--bg-cinco); 
   padding: 8px 15px;  
   border-radius: 8px;  
-  transition: background-color 0.3s;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .mi-link:hover {
   background-color:var(--bg-cuatro); 
+  transform: scale(1.05); 
 }
