@@ -29,7 +29,7 @@
 }
 .main-nav a:hover{
   background: var(--col-uno);
-  color: #f7ce96;
+  color: #ffd9a4;
   text-decoration:dashed;
 }
 .site-header{
@@ -71,7 +71,7 @@
 
 .titulo-principal-container {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .titulo-principal {
   font-family: var(--fuente-titulo);
