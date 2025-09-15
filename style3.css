@@ -16,6 +16,7 @@
   --fuente-titulo: Arial;
   --fuente-cuerpo: sans-serif;
   --shadow: 0 8px 22px rgba(0,0,0,.06);
+  --transicion-suave : 0.3s ease;
 
   --r-xl: 22px;
   --r-lg: 16px;
@@ -25,12 +26,19 @@
 .caja{
    background:#ebb67e; 
    border: 2px #ebb67e;
-    margin: 30px;
+    margin: 40px;
     padding-bottom: 30px;
     padding-top: 0%;
     padding-left : 30px;
     padding-right : 30px;
     line-height: 1.55;
+}
+
+.linea{
+    width: 6rem;
+    height: 0.25rem;
+    background: var(--bg);
+    margin: 0 auto;
 }
 
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
@@ -97,14 +105,25 @@
 
 }
 
-.redes{
+.redes-titulo{
     text-align: center;
     margin-bottom: 3rem;
     font-family: var(--fuente-cuerpo);
-    font-size: 2.25rem;
+    font-size: 1rem;
     font-weight: medium;
     margin-bottom: 3rem;
-    border: 5px double var(--bg-tres);
+    border: 10px double var(--bg-tres);
     border-radius: 40px;
     color: var(--bg-cinco);
+}
+
+.redes{
+    text-align: center;
+    background: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    
+    transition: transform var(--transicion-suave);
+    
+
 }
