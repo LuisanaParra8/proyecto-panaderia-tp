@@ -13,10 +13,9 @@
   --bg-once: #d0c4a6;
   --bg-doce:  #ae8f72;
 
-  --fuente-titulo: Arial;
-  --fuente-cuerpo: sans-serif;
+  --fuente-titulo: serif;
+  --fuente-cuerpo: Times New Roman ;
   --shadow: 0 8px 22px rgba(0,0,0,.06);
-  --transicion-suave : 0.3s ease;
 
   --r-xl: 22px;
   --r-lg: 16px;
@@ -117,10 +116,16 @@
     background: var(--bg-cinco);
     border-radius: 2rem;
     overflow: hidden;
-    box-shadow: 0 10px 5px -3px rgba(0,0,0,.1),
+    box-shadow: 0 5px 7px -1px rgba(0,0,0,.1),
               0 2px 3px -1px rgba(0,0,0,.05);
-    transition: transform var(--transicion-suave);
+   transition: transform 0.2s;
     
+}
+
+.redes:hover{
+
+  transform: scale(1.05);
+
 }
 .caja-formulario {
   width: 80%; 
