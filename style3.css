@@ -24,6 +24,7 @@
   --r-xl: 22px;
   --r-lg: 16px;
   --container: 1000px;
+  --altura-redes: 71px;
 
 }
 .caja {
@@ -134,12 +135,26 @@
     background: #be8b58;
     font-family: var(--fuente-cuerpo);
     font-size: 1rem;
-    font-weight: medium;
-    margin-bottom: 3rem;
+    font-weight: 500;
     border: 6px double var(--bg-tres);
     border-radius: 40px;
     color: var(--bg-cinco);
+    width: min(92%, var(--container));
+    margin-inline: auto;             
+    box-sizing: border-box;
+    min-height: var(--altura-redes);
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    box-sizing: border-box;
+
 }
+.redes-titulo h1{
+  margin: 0;
+  line-height: 1.1;               
+}
+
 .redes{
     text-align: center;
     background: var(--bg-cinco);
