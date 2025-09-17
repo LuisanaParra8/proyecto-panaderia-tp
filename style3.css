@@ -25,7 +25,7 @@
 .caja{
    background:#ebb67e; 
    border: 2px #ebb67e;
-    margin: 40px;
+    margin: 30px;
     padding-bottom: 30px;
     padding-top: 0%;
     padding-left : 30px;
@@ -77,7 +77,7 @@
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  background: #c78d57;
+  background: #32140c;
   border: 5px double #5C3D2E;
   border-radius: 15px;
   box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
@@ -87,13 +87,13 @@
   max-width: 90%; 
 }
 
-.contacto-info p {
+.contacto-info h4 {
   margin: 0;
   font-weight: 500;
-  color: #2a1c12;
+  color: #ffffff;
   font-size: 1rem;
 }
-.contacto-info p:hover {
+.contacto-info h4:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.25); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
