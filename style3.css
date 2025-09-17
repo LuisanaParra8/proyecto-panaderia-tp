@@ -22,7 +22,7 @@
   --container: 1000px;
 
 }
-.caja{
+.caja font-body {
    background:#ebb67e; 
    border: 2px #ebb67e;
     margin: 30px;
