@@ -122,7 +122,6 @@
   object-fit: cover;
 }
 
-<<<<<<< HEAD
 .hover-scale { transition: var(--transicion-suave); }
 
 .hover-scale:hover { transform: scale(var(--escala-hover)); }
@@ -215,5 +214,3 @@
     color: white;
 }
 
-=======
->>>>>>> 7f52d86 (Arreglando errores)
