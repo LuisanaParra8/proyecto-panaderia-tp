@@ -53,7 +53,10 @@
   border-radius: 999px;             
   margin: 30px auto;
   width: min(96%, 1120px);
-  box-shadow: var(--shadow);    
+  box-shadow: var(--shadow); 
+  position: sticky;
+  top: 12px;          /* separacion desde el borde superior */
+  z-index: 1000; 
 }
 
 .header-inner{
