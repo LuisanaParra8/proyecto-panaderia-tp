@@ -46,7 +46,7 @@
   background: #be8b58; 
   border: 2px solid var(--bg-tres);
   border-radius: 999px;             
-  margin: 14px auto;
+  margin: 30px auto;
   width: min(96%, 1120px);
   box-shadow: var(--shadow);    
 }
