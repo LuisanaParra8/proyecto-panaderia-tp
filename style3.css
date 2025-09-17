@@ -74,22 +74,31 @@
 }
 
 .contacto-info {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
   background: #c78d57;
-  border: 4px double #5C3D2E;
-  border-radius: 20px;
-  box-shadow: 4px 6px 12px rgba(0,0,0,0.25);
-  padding: 1.5rem 2rem;
-  margin-top: 1.5rem;
-  text-align: left;
+  border: 5px double #5C3D2E;
+  border-radius: 15px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  padding: 0.8rem 1.2rem;
+  margin: 1rem auto;
+  width: 600px;
+  max-width: 90%; 
 }
 
 .contacto-info p {
-  margin: 0.5rem 0;
+  margin: 0;
   font-weight: 500;
   color: #2a1c12;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
+.contacto-info p:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .main-nav a:hover{
   background: #7e5347;
   color: #f1c587;
