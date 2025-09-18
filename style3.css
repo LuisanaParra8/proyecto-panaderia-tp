@@ -28,9 +28,9 @@
 
 }
 .caja {
-   background:#ebb67e; 
+  background-color: #ebb67e;
    border: 2px #ebb67e;
-    margin: 30px;
+    margin: 0px;
     padding-bottom: 30px;
     padding-top: 0%;
     padding-left : 30px;
@@ -159,17 +159,13 @@
 }
 
 .redes{
-    display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  background: #723423;
-  border: 5px double #5C3D2E;
-  border-radius: 15px;
-  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
-  padding: 0.1rem 1.0rem;
-  margin: 1pc auto;
-  width: 400px;
-  max-width: 90%; 
+    text-align: center;
+    background: var(--bg-cinco);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 5px 7px -1px rgba(0,0,0,.1),
+              0 2px 3px -1px rgba(0,0,0,.05);
+   transition: transform 0.2s;
 }
 
 .redes:hover{
