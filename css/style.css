@@ -14,7 +14,7 @@
   --color-bg-primario: #a1714f;
 
   --paper: #fffdf6;           
-  --ink:   #261e1a; /* texto principal */
+  --ink:   #261e1a;
   --line:  rgba(50,20,12,.18); 
   --shadow: 0 8px 22px rgba(0,0,0,.06);
 
@@ -45,6 +45,10 @@ img{ max-width:100%; display:block }
   margin-inline:auto;
 }
 
+.site-header {
+  position: relative;
+}
+
 .site-header{
   background: #be8b58; 
   border: 2px solid var(--col-tres);
@@ -54,20 +58,29 @@ img{ max-width:100%; display:block }
   box-shadow: var(--shadow);        
 }
 
+.cafe-flotante {
+  position: absolute;
+  top: -40px;  
+  left: -20px;
+  width: 180px;
+  z-index: 10;
+  pointer-events: none; 
+  animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
 .header-inner{
   display:flex; align-items:center;
   gap:1rem;
   padding:.6rem 1rem;
 }
-.brand{ 
-  display:flex; align-items:center; gap:.55rem;
-  padding:.35rem .8rem;
-  background: #f1c587;
-  border: 2px solid var(--col-cuatro);
-  border-radius: 999px;
-  color: var(--col-tres);
-  font-weight:800;
-}
+
+
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
 .main-nav a{
   text-decoration:none; color:var(--col-tres);
