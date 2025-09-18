@@ -145,15 +145,6 @@ img{ max-width:100%; display:block }
   margin: 0 auto 10px;                     
 }
 
-.panaderia-frase{
-  display:block;         
-  text-align:center;
-  font-size: clamp(1rem, 3vw, 1.5rem); 
-  font-weight: 600;
-  color: var(--col-cinco); 
-  margin: 0;
-}
-
 .historia-card{
   border: 2px solid var(--col-tres);
   background: #fff;
