@@ -1,0 +1,272 @@
+:root{ 
+    --bg: #3a2f29;
+   --bg-uno: #b58756; 
+  --bg-dos:        #c5ac88; 
+  --bg-tres:   #674726; 
+  --bg-cuatro:        #815a40; 
+  --bg-cinco:  #32140c; 
+  --bg-seis: #c7968d;
+  --bg-siete:   #77550e; 
+  --bg-ocho: #d2c58b;
+  --bg-nueve: #b57a3f;
+  --bg-diez:     #8b4113; 
+  --bg-once: #d0c4a6;
+  --bg-doce:  #ae8f72;
+
+  --color-bg-primario: #a1714f;
+  --color-bg-secundario: #f7e5b3;
+  --color-texto-primario: #6F4E37;
+
+  --fuente-titulo: serif;
+  --fuente-cuerpo:system-ui, Arial, sans-serif;
+  --shadow: 0 8px 22px rgba(0,0,0,.06);
+
+  --r-xl: 22px;
+  --r-lg: 16px;
+  --container: 1000px;
+  --altura-redes: 71px;
+
+}
+.caja {
+   background:#ebb67e; 
+   border: 2px #ebb67e;
+    margin: 30px;
+    padding-bottom: 30px;
+    padding-top: 0%;
+    padding-left : 30px;
+    padding-right : 30px;
+    line-height: 1.55;
+    color: #3a2f29;
+}
+
+.main-nav{ margin-left:auto; display:flex; gap:1rem }
+.main-nav a{
+  text-decoration:none; color:var(--bg-tres);
+  padding:.45rem .8rem;
+  border-radius:999px;
+  font-weight:600;
+}
+
+.site-header{
+  background: #be8b58; 
+  border: 2px solid var(--bg-tres);
+  border-radius: 999px;             
+  margin: 30px auto;
+  width: min(96%, 1120px);
+  box-shadow: var(--shadow); 
+  position: sticky;
+  top: 12px;
+  z-index: 1000; 
+}
+
+.header-inner{
+  display:flex;
+ align-items:center;
+  gap:1rem;
+  padding:.6rem 1rem;
+}
+
+.brand{ 
+  display:flex; align-items:center; gap:.55rem;
+  padding:.35rem .8rem;
+  background: #f1c587;
+  border: 2px solid var(--bg-cuatro);
+  border-radius: 999px;
+  color: var(--bg-tres);
+  font-weight:800;
+}
+
+.container {
+  width: min(92%, var(--container));
+  margin-inline: auto;
+}
+
+.contacto-info {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background: #32140c;
+  border: 5px double #5C3D2E;
+  border-radius: 15px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  padding: 0.8rem 1.2rem;
+  margin: 1pc auto;
+  width: 600px;
+  max-width: 90%; 
+}
+
+.contacto-info h4 {
+  margin: 0;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.contacto-info h4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-nav a:hover{
+  background: #7e5347;
+  color: #f1c587;
+  text-decoration:dashed;
+}
+
+.font-body  { font-family: var(--fuente-cuerpo); }
+
+
+.titulo-principal-container {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.titulo-principal {
+    background: #be8b58;
+    font-family: var(--fuente-titulo);
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  border: 6px double var(--bg-tres);
+  border-radius: 40px;
+  color: var(--bg-cinco);
+
+}
+
+.redes-titulo{
+    text-align: center;
+    margin-bottom: 3rem;
+    background: #be8b58;
+    font-family: var(--fuente-cuerpo);
+    font-size: 1rem;
+    font-weight: 500;
+    border: 6px double var(--bg-tres);
+    border-radius: 40px;
+    color: var(--bg-cinco);
+    width: min(92%, var(--container));
+    margin-inline: auto;             
+    box-sizing: border-box;
+    min-height: var(--altura-redes);
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    box-sizing: border-box;
+
+}
+.redes-titulo h1{
+  margin: 0;
+  line-height: 1.1;               
+}
+
+.redes{
+    display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background: #32140c;
+  border: 5px double #5C3D2E;
+  border-radius: 15px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  padding: 0.1rem 1.0rem;
+  margin: 1pc auto;
+  width: 400px;
+  max-width: 90%; 
+}
+
+.redes:hover{
+
+  transform: scale(1.05);
+
+}
+.caja-formulario {
+  width: 80%; 
+  max-width: 500px;
+  font-weight:700;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  margin: 20px auto;
+  padding: 20px;
+  background:var(--bg-uno) ;
+  border: 10px double var(--bg-tres);
+  border-radius: 40px;
+  color: var(--bg-cinco);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+.formulario input[type="submit"] {
+  background: var(--bg-cinco);
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  border: none;
+  padding: 10px;
+}
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;   
+  box-sizing: border-box;  
+}
+.boton-redondo {
+  padding: 12px 25px;
+  background-color: var(--bg-cinco); 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larges;
+  font-weight:700;
+  color: white;            
+  border: none;            
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.boton-redondo:hover {
+  background-color: var(--bg-cuatro); 
+  transform: scale(1.05); 
+}
+
+.caja-horarios{
+    width: 80%; 
+  max-width: 500px; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  text-align: center;
+  margin: 20px auto;  
+  padding: 20px; 
+  background:var(--bg-uno) ;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  border: 10px double var(--bg-tres);
+  border-radius: 40px;
+  color: var(--bg-cinco);
+}
+.mi-link {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight:600;
+  background-color: var(--bg-cinco); 
+   margin: 20px auto;  
+  padding: 20px;  
+  cursor: pointer;
+  border-radius: 30px;  
+  transition: background-color 0.3s, transform 0.2s;
+}
+.mi-link:hover {
+  background-color:var(--bg-cuatro); 
+   transform: scale(1.05); 
+}
+h2,h3{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.mensaje-enviado{
+   font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+section{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
