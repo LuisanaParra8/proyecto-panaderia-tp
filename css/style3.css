@@ -28,9 +28,9 @@
 
 }
 .caja {
-   background:#ebb67e; 
+  background-color: #ebb67e;
    border: 2px #ebb67e;
-    margin: 30px;
+    margin: 0px;
     padding-bottom: 30px;
     padding-top: 0%;
     padding-left : 30px;
@@ -58,6 +58,11 @@
   top: 12px;
   z-index: 1000; 
 }
+
+.bg-secondary {
+    background-color:#ebb67e;
+}
+
 
 .header-inner{
   display:flex;
