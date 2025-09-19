@@ -55,7 +55,7 @@ img{ max-width:100%; display:block }
   border-radius: 999px;             
   margin: 30px auto;
   width: min(96%, 1120px);
-  box-shadow: var(--shadow);        
+  box-shadow: var(--shadow);      
 }
 
 .cafe-flotante {
