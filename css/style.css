@@ -26,7 +26,7 @@
 *{box-sizing:border-box}
 html,body{margin:0; padding:0}
 body{
-  font-family: system-ui, Arial, sans-serif;
+  font-family: sans-serif;
   background: #ebb67e; 
   color: var(--ink);       
   line-height: 1.55;
@@ -78,10 +78,10 @@ img{ max-width:100%; display:block }
 
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
 .main-nav a{
-  text-decoration:none; color:var(--col-tres);
+  text-decoration:none; color:#2B1A12;
   padding:.45rem .8rem;
   border-radius:999px;
-  font-weight:600;
+  font-weight:700;
 }
 .main-nav a:hover{
   background: #7e5347;
