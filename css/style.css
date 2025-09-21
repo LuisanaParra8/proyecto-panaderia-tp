@@ -16,7 +16,7 @@
   --paper: #fffdf6;           
   --ink:   #261e1a;
   --line:  rgba(50,20,12,.18); 
-  --shadow: 0 8px 22px rgba(0,0,0,.06);
+  --shadow: 0 4px 6px rgba(0,0,0,0.2);
 
   --r-xl: 22px;
   --r-lg: 16px;
