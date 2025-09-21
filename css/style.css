@@ -35,7 +35,7 @@ img{ max-width:100%; display:block }
 
 .bg-primary{
   background-color: var(--color-bg-primario);
-  padding: 50px 0;
+  padding: 1px 0;
 }
 .bg-secondary{
   background-color: #ebb67e;
