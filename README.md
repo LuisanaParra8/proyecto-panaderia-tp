@@ -15,5 +15,11 @@ desarrollado con HTML, CSS y próximamente JS.<br/>
 
 ---
 
+## Carpetas creadas
+- css
+- imagenes
+
+---
+
 Entrega por: Luisana Parra<br/>
 Grupo: Luisana Parra, Jazmin Almaza, Juliana Ledesma, Valentina Pichún, Romina Salvay, Lis Holt
