@@ -252,7 +252,7 @@ img.panaderia-foto{
 }
 
 .site-footer{
-  background: var(--col-tres);    
+  background: linear-gradient(270deg, var(--col-tres), var(--col-diez), var(--col-tres));   
   color: var(--paper);            
   padding: 24px 16px;
   text-align: center;
