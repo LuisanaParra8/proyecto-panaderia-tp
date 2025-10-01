@@ -372,28 +372,6 @@ img.panaderia-foto{
   .hero-box::before{ animation: none; }
 }
 
-@media (hover: hover){
-  .brand-logo:hover .brand-logo__inner,
-  .brand-logo:focus-visible .brand-logo__inner{
-    transform: rotateY(180deg);
-  }
-}
-
-/*Reduce motion (sin giro, muestra etiqueta)*/
-@media (prefers-reduced-motion: reduce){
-  .brand-logo__inner{ transition: none; }
-  .brand-logo:hover .face--front::after,
-  .brand-logo:focus-visible .face--front::after{
-    content: "Panadería y Pastelería";
-    position: absolute; bottom: -2.2rem; left: 50%; transform: translateX(-50%);
-    background: var(--col-once, #d0c4a6);
-    color: var(--col-cinco);
-    padding: .35rem .6rem; border-radius: .5rem; white-space: nowrap;
-    box-shadow: 0 4px 10px rgba(0,0,0,.12);
-    font-weight: 700; font-size: .9rem;
-  }
-}
-
 
 
 
