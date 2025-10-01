@@ -82,11 +82,25 @@ img{ max-width:100%; display:block }
   padding:.45rem .8rem;
   border-radius:999px;
   font-weight:700;
+  position: relative;
+  overflow: hidden;
 }
 .main-nav a:hover{
   background: #7e5347;
   color: #f1c587;
   text-decoration:dashed;
+}
+.main-nav a::after{
+  content: "";
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%; height: 2px;
+  background: var(--col-cinco);
+  transform: translateX(-100%);
+  transition: transform .3s ease;
+}
+.main-nav a:hover::after{
+  transform: translateX(0);
 }
 
 .hero-box{
