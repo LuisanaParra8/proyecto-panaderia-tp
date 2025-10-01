@@ -130,16 +130,6 @@ img{ max-width:100%; display:block }
   margin: 0 0 15px 0;           
 }
 
-.panaderia-logo{
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;                
-  border: 3px solid var(--col-cinco);
-  display: block;
-  margin: 0 auto 10px;                     
-}
-
 .brand-logo{
   display: inline-block;
   perspective: 900px;         
