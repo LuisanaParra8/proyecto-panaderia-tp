@@ -171,6 +171,22 @@ img{ max-width:100%; display:block }
   font-weight: 900;
   letter-spacing: .3px;
 }
+/*Cara frontal: titulo*/
+.face--front{
+  color: var(--col-cinco);     
+  text-shadow: 0 1px 0 rgba(0,0,0,.08);
+  background: transparent;    
+}
+/*Cara trasera: frase*/
+.face--back{
+  transform: rotateY(180deg);
+  color: var(--paper);       
+  background: linear-gradient(180deg,
+              color-mix(in srgb, var(--col-cuatro) 85%, #000 0%),
+              var(--color-bg-primario));
+  box-shadow: inset 0 4px 12px rgba(0,0,0,.18);
+  border-radius: inherit;
+}
 
 .historia-card{
   border: 2px solid var(--col-tres);
