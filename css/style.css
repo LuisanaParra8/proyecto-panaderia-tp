@@ -140,6 +140,25 @@ img{ max-width:100%; display:block }
   margin: 0 auto 10px;                     
 }
 
+.brand-logo{
+  display: inline-block;
+  perspective: 900px;         
+  text-decoration: none;
+  margin-left: .25rem;
+}
+
+.brand-logo__inner{
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: clamp(160px, 18vw, 260px);
+  height: clamp(44px, 5vw, 64px);
+  padding: 0 .9rem;
+  transform-style: preserve-3d;
+  transition: transform .8s ease;
+  border-radius: 999px;      
+}
+
 .historia-card{
   border: 2px solid var(--col-tres);
   background: #fff;
