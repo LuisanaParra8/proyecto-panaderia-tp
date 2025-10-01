@@ -184,6 +184,11 @@ img{ max-width:100%; display:block }
   padding: 16px;
   box-shadow: var(--shadow);
   margin: 18px auto;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.historia-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
 }
 
 .historia-grid{
