@@ -349,38 +349,6 @@ img.panaderia-foto{
   .historia .historia-media img.panaderia-foto{height:240px;}
 }
 
-/*Ajustar si me pinta*/
-:root{
-  --text-x: 0px;
-  --text-y: -133px;
-}
-
-.intro-title-overlay{
-  position: fixed; inset: 0;
-  display: grid; place-items: center;
-  background: var(--paper, #fffdf6);
-  z-index: 9999;
-  animation: intro-text-fade .3s linear 1.4s forwards; /* se apaga */
-  }
-
-.intro-title{
-  font-size: 3.5rem;
-  font-weight: 900;
-  color: var(--col-cinco, #674726);
-  animation: intro-text-pop 1.4s cubic-bezier(.2,.8,.2,1) forwards;
-}
-
-/*efectos*/
-@keyframes intro-text-pop{
-  0%   { transform: scale(.85); opacity: 0; }
-  35%  { transform: scale(1.15); opacity: 1; }
-  100% { transform: translate(var(--text-x), var(--text-y)) scale(1); opacity: 1; }
-}
-
-@keyframes intro-text-fade{
-  to { opacity: 0; visibility: hidden; pointer-events: none; }
-}
-
 @keyframes gradientMove{
   0%   {background-position: 0% 50%;}
   50%  {background-position: 100% 50%;}
@@ -408,7 +376,6 @@ img.panaderia-foto{
 
 /* Accesibilidad */
 @media (prefers-reduced-motion: reduce){
-  .intro-text-only{ display:none !important; }
   .hero-box::before{ animation: none; }
 }
 
