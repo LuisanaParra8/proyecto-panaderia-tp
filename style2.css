@@ -240,4 +240,8 @@
 .btn {
   transition: all 0.3s ease-in-out;
   font-family: "Dosis", sans-serif;
+   width: 400px;
+  height: 60px;
+  border-radius: 50px;
+
 }
