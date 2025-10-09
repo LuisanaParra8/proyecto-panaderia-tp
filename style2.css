@@ -243,5 +243,7 @@
    width: 400px;
   height: 60px;
   border-radius: 50px;
+  background-image: linear-gradient(135deg, #a98573ee 0%, #e2c6a6ba 100%);
+  box-shadow: 0 20px 30px -6px rgba(181, 114, 80, 0.5);
 
 }
