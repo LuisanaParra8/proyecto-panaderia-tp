@@ -51,6 +51,10 @@
   animation: flotar 3s ease-in-out infinite;
   }
 
+  @keyframes flotar {
+
+    
+}
 
 .header-inner{
   display:flex;
