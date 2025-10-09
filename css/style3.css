@@ -28,15 +28,15 @@
 
 }
 .caja {
-  background-color: #ebb67e;
-   border: 2px #ebb67e;
+  background-color: #e7d7c7;
+   border: 2px  #e7d7c7;
     margin: 0px;
     padding-bottom: 30px;
     padding-top: 0%;
     padding-left : 30px;
     padding-right : 30px;
     line-height: 1.55;
-    color: #3a2f29;
+    color: #29211c;
 }
 
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
@@ -54,13 +54,16 @@
   margin: 30px auto;
   width: min(96%, 1120px);
   box-shadow: var(--shadow); 
-  position: sticky;
   top: 12px;
   z-index: 1000; 
 }
 
+.site-header{
+  position:relative;
+}
+
 .bg-secondary {
-    background-color:#ebb67e;
+    background-color:#e7d7c7;
 }
 
 
@@ -270,5 +273,15 @@ h2,h3{
 section{
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
+}
+
+.cafe-flotante{
+  position: absolute;
+  top: -40px;  
+  left: -20px;
+  width: 180px;
+  z-index: 10;
+  pointer-events: none; 
+  animation: flotar 3s ease-in-out infinite;
 }
 
