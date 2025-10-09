@@ -1,7 +1,8 @@
 :root {
-  --color-bg-primario: #F3E9DC;
-  --color-bg-secundario: #D9C7B8;
-  --color-texto-primario: #5C3D2E;
+   --color-bg-primario: #a1714f;
+  --color-bg-secundario: #ebb67e;
+  --color-texto-primario: #6F4E37;
+
 
   --fuente-titulo: serif;
   --fuente-cuerpo: sans-serif;
@@ -44,7 +45,7 @@
 .cafe-flotante{
   position: absolute;
   top: -25px;
-  left: 100px;
+  left: 130px;
   width: 180px;
   z-index: 10;
   pointer-events: none;
