@@ -41,7 +41,10 @@
   box-shadow: var(--shadow);        
 }
 
+.cafe-flotante{
+  }
 
+  
 .header-inner{
   display:flex;
  align-items:center;
