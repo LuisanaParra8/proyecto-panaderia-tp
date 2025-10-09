@@ -256,3 +256,7 @@
   font-weight: 600;  
 }
 
+.btn:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
