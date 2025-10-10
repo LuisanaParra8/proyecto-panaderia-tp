@@ -317,7 +317,7 @@
   transition: color .25s ease, text-decoration-color .25s ease;
 }
 .site-footer a:hover {
-  color: #f1c587;
+  color: #fdd193;
   text-decoration: underline;
 }
 @keyframes footerGradient {
