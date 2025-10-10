@@ -1,7 +1,7 @@
 :root {
    --color-bg-primario: #a1714f;
   --color-bg-secundario: #ebb67e;
-  --color-texto-primario: #6F4E37;
+  --color-texto-primario: #aa7149;
 
 
   --fuente-titulo: serif;
@@ -12,7 +12,7 @@
   --escala-hover: 1.05;
 
   --col-uno: #5C3D2E;     
-  --col-tres: #674726;      
+  --col-tres:#674726;      
   --shadow: 0 4px 6px rgba(0,0,0,0.2);
 
   --r-xl: 22px;
