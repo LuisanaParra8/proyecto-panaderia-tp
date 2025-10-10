@@ -304,4 +304,9 @@
   transition: color .25s ease, transform .25s ease;
   transition: transform .3s ease, color .3s ease;
 }
+.site-footer i:hover {
+  color: var(--col-uno);
+  transform: translateY(-1px);
+  transform: scale(1.3) rotate(-5deg);
+}
 
