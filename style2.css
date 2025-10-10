@@ -61,6 +61,36 @@
   box-shadow: var(--shadow);        
 }
 
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 900px;
+  height: 900px;
+  border-radius: 300px;
+  background-image: conic-gradient(
+    #c99757,
+    #e4a257 100%,
+    #db9224 100%,
+    #fdad34 100%,
+    #c45d0a 100%,
+    #c08d53 100%
+  );
+  filter: brightness(1.3);
+  z-index: -1;
+  animation: rotate 10s linear infinite;
+  transition: all 2s;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 .medialuna-flotante{
   position: absolute;
   top: -25px;
@@ -329,4 +359,3 @@
   50% {background-position: 100% 50%;}
   100% {background-position: 0% 50%;}
 }
-
