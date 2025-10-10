@@ -195,6 +195,10 @@
 .redes{
     text-align: center;
     overflow: hidden;
+    display: flex;             
+    justify-content: center;  
+    gap: 15px;            
+    padding: 10px 0;
     
 }
 
