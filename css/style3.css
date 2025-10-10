@@ -160,9 +160,10 @@
     font-family: var(--fuente-titulo);
   font-size: 2.25rem;
   font-weight: bold;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   border: 6px double var(--bg-tres);
-  border-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
   color: var(--bg-cinco);
 
 }
