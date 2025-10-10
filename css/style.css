@@ -374,7 +374,6 @@ img.panaderia-foto{
   100% {background-position: 0% 50%;}
 }
 
-/* Accesibilidad */
 @media (prefers-reduced-motion: reduce){
   .hero-box::before{ animation: none; }
 }
