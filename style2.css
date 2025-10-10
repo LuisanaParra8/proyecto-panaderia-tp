@@ -281,4 +281,13 @@
   background-size: 400% 400%;
   animation: footerGradient 20s ease infinite;
 }
+.site-footer .footer-card {
+  width: min(92%, var(--container));
+  margin-inline: auto;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .4rem;
+}
 
