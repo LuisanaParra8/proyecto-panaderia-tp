@@ -32,6 +32,14 @@
   color: #ffd9a4;
   text-decoration:dashed;
 }
+
+.main-nav a::after{
+  content: "";
+  position: absolute;
+  bottom: 0; left: 0;
+  
+
+}
 .site-header{
   background: #be8b58; 
   border: 2px solid var(--col-uno);     
