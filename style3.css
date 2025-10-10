@@ -295,7 +295,6 @@
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
-  padding: 8px 12px;
   transition: background 0.3s, transform 0.2s;
 }
 .horario-dia:hover {
@@ -315,3 +314,4 @@ section{
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
+
