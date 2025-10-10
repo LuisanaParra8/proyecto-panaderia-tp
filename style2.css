@@ -52,7 +52,7 @@
 }
 
 .site-header{
-  background: #cea976; 
+  background: #be8b58;
   border: 2px solid var(--col-uno);     
   border-radius: 999px;             
   margin: 30px auto;
@@ -88,11 +88,6 @@
   width: min(92%, var(--container));
   margin-inline: auto;
   }
-
-
-
-
-
 .font-title { font-family: var(--fuente-titulo); }
 .font-body  { font-family: var(--fuente-cuerpo); }
 .bg-primary   { background-color: var(--color-bg-primario); }
