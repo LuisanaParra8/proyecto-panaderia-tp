@@ -190,6 +190,7 @@
     width: 80%;
     margin: 60px auto;
     height: 430px;
+    border: 2px solid #66402c;
 }
 
 .galeria img {
