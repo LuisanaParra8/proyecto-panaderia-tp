@@ -315,4 +315,8 @@
   font-weight: 600;
   transition: color .25s ease, text-decoration-color .25s ease;
 }
+.site-footer a:hover {
+  color: #f1c587;
+  text-decoration: underline;
+}
 
