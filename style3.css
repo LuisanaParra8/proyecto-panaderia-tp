@@ -252,26 +252,7 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
   border: 10px double var(--bg-tres);
   border-radius: 40px;
-  color: var(--bg-cinco);
-}
-.mi-link {
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: large;
-  color: white;
-  display: flex;
-  justify-content: center;
-  font-weight:600;
-  background-color: var(--bg-cinco); 
-   margin: 20px auto;  
-  padding: 20px;  
-  cursor: pointer;
-  border-radius: 30px;  
-  transition: background-color 0.3s, transform 0.2s;
-}
-.mi-link:hover {
-  background-color:var(--bg-cuatro); 
-   transform: scale(1.05); 
+  color: var(--bg-cinco); 
 }
 h2,h3{
   font-family: 'Times New Roman', Times, serif;
