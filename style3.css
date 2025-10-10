@@ -207,6 +207,17 @@
   transform: scale(1.05);
 
 }
+.icono-redes {
+  transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+  display: inline-flex;      /* Para centrar icono si tiene fondo */
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.icono-redes:hover {
+  transform: scale(1.2);
+}
 .caja-formulario {
   width: 80%; 
   max-width: 500px;
