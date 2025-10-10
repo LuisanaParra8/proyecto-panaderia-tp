@@ -150,6 +150,16 @@
 
 .font-body  { font-family: var(--fuente-cuerpo); }
 
+.boton-ubicacion {
+  display: inline-block;
+  padding: 6px 15px;
+  background-color:#32140c; 
+  text-decoration: none;
+  color:#ffffff;  
+  border-radius: 6px;  
+  font-weight:500;
+}
+
 
 .titulo-principal-container {
   text-align: center;
