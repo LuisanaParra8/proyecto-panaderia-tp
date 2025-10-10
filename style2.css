@@ -12,7 +12,7 @@
   --escala-hover: 1.05;
 
   --col-uno: #5C3D2E;     
-  --col-tres: #2B1A12;      
+  --col-tres: #674726;      
   --shadow: 0 4px 6px rgba(0,0,0,0.2);
 
   --r-xl: 22px;
@@ -299,7 +299,7 @@
   flex-wrap: wrap;
 }
 .site-footer i {
-  color: var(--col-dos);
+  color: var(--color-bg-secundario);
   font-size: 1.15rem;
   transition: color .25s ease, transform .25s ease;
   transition: transform .3s ease, color .3s ease;
