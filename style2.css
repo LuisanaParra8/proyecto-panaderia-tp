@@ -26,7 +26,9 @@
   text-decoration:none; color:var(--col-tres);
   padding:.45rem .8rem;
   border-radius:999px;
-  font-weight:600;
+  font-weight:700;
+  position: relative;
+  overflow: hidden;
 }
 .main-nav a:hover{
   background: var(--col-uno);
@@ -39,13 +41,14 @@
   position: absolute;
   bottom: 0; left: 0;
   width: 100%; height: 2px;
-  background: var(--col-cinco);
+  background: var(--col-tres);
   transform: translateX(-100%);
   transition: transform .3s ease;
 }
 
 .main-nav a:hover::after{
   transform: translateX(0);
+  border-bottom: 3px solid #3b1d16;
 }
 
 .site-header{
