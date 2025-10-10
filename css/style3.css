@@ -28,8 +28,8 @@
 
 }
 .caja {
-  background-color: #e7d7c7;
-   border: 2px  #e7d7c7;
+  background-color: #ebb67e;
+   border: 2px  #ebb67e;
     margin: 0px;
     padding-bottom: 30px;
     padding-top: 0%;
@@ -63,7 +63,7 @@
 }
 
 .bg-secondary {
-    background-color:#e7d7c7;
+    background-color: #ebb67e;
 }
 
 
@@ -163,17 +163,13 @@
 }
 .redes-titulo h1{
   margin: 0;
-  line-height: 1.1;               
+  line-height: 1.1; 
+                
 }
 
 .redes{
     text-align: center;
-    background: var(--bg-cinco);
-    border-radius: 2rem;
     overflow: hidden;
-    box-shadow: 0 5px 7px -1px rgba(0,0,0,.1),
-              0 2px 3px -1px rgba(0,0,0,.05);
-   transition: transform 0.2s;
     
 }
 
