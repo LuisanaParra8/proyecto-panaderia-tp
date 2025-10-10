@@ -209,7 +209,7 @@
 }
 .icono-redes {
   transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  display: inline-flex;      /* Para centrar icono si tiene fondo */
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
@@ -285,6 +285,19 @@
   border-bottom: 2px solid var(--bg-tres); 
   padding-bottom: 5px;
 }
+.horario-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.horario-dia {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+}
 h2,h3{
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
@@ -297,5 +310,3 @@ section{
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
-
-
