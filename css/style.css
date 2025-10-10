@@ -307,7 +307,6 @@ img.panaderia-foto{
   text-decoration: underline;
 }
 
-/*FIX PACK HISTORIA*/
 .historia .historia-grid{
   display:grid;
   grid-template-columns: minmax(420px, 48%) 1fr;

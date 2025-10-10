@@ -33,6 +33,21 @@
   color: #f1c587;
   text-decoration:dashed;
 }
+
+.main-nav a::after{
+  content: "";
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%; height: 2px;
+  background: var(--col-cinco);
+  transform: translateX(-100%);
+  transition: transform .3s ease;
+}
+
+.main-nav a:hover::after{
+  transform: translateX(0);
+}
+
 .site-header{
   background: #cea976; 
   border: 2px solid var(--col-uno);     
