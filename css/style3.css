@@ -13,6 +13,8 @@
   --bg-once: #d0c4a6;
   --bg-doce:  #ae8f72;
   --bg-trece:  #5C3D2E;
+  --bg-primary: #a1714f;
+
 
   --color-bg-primario: #a1714f;
   --color-bg-secundario: #f7e5b3;
@@ -96,6 +98,10 @@
   0% { transform: translateY(0); }
   50% {transform: translateY(-8px); }
   100% {transform: translateY(0); }
+}
+.bg-primary{
+  background-color: var(--bg-primary);
+  padding: 1px 0;;
 }
 
 
