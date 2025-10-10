@@ -20,14 +20,12 @@
 
   --fuente-titulo: serif;
   --fuente-cuerpo:system-ui, Arial, sans-serif;
-  --fuente-red: sans-serif;
   --shadow: 0 4px 6px rgba(0,0,0,0.2);
 
 
   --r-xl: 22px;
   --r-lg: 16px;
   --container: 1000px;
-  --altura-redes: 71px;
 
 }
 .caja {
@@ -165,29 +163,9 @@
 
 .redes-titulo{
     text-align: center;
-    margin-bottom: 3rem;
-    background: #be8b58;
-    font-family: var(--fuente-red);
-    font-size: 1rem;
-    font-weight: 500;
-    border: 6px double var(--bg-tres);
-    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
     color: var(--bg-cinco);
-    width: min(92%, var(--container));
-    margin-inline: auto;             
-    box-sizing: border-box;
-    min-height: var(--altura-redes);
-    display: flex;      
-    align-items: center;
-    justify-content: center;
-    padding: 0 2rem;
-    box-sizing: border-box;
 
-}
-.redes-titulo h1{
-  margin: 0;
-  line-height: 1.1; 
-                
 }
 
 .redes{
