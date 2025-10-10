@@ -59,13 +59,13 @@ img{ max-width:100%; display:block }
   box-shadow: var(--shadow);
 }
 
-.cafe-flotante {
-  position: absolute;
-  top: -40px;  
-  left: -20px;
+.medialuna-flotante {
+ position: absolute;
+  top: -25px;
+  left: 130px;
   width: 180px;
   z-index: 10;
-  pointer-events: none; 
+  pointer-events: none;
   animation: flotar 3s ease-in-out infinite;
 }
 
