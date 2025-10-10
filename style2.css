@@ -298,4 +298,10 @@
   gap: .5rem;
   flex-wrap: wrap;
 }
+.site-footer i {
+  color: var(--col-dos);
+  font-size: 1.15rem;
+  transition: color .25s ease, transform .25s ease;
+  transition: transform .3s ease, color .3s ease;
+}
 
