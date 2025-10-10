@@ -62,6 +62,23 @@
   position:relative;
 }
 
+.cafe-flotante{
+  position: absolute;
+  top: -40px;  
+  left: -20px;
+  width: 180px;
+  z-index: 10;
+  pointer-events: none; 
+  animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0% { transform: translateY(0); }
+  50% {transform: translateY(-8px); }
+  100% {transform: translateY(0); }
+}
+
+
 .bg-secondary {
     background-color: #ebb67e;
 }
@@ -271,13 +288,4 @@ section{
   text-align: center;
 }
 
-.cafe-flotante{
-  position: absolute;
-  top: -40px;  
-  left: -20px;
-  width: 180px;
-  z-index: 10;
-  pointer-events: none; 
-  animation: flotar 3s ease-in-out infinite;
-}
 
