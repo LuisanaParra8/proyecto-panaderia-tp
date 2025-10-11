@@ -37,7 +37,7 @@
 
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
 .main-nav a{
-  text-decoration:none; color:var(--col-tres);
+  text-decoration:none; color:var(--col-cinco);
   padding:.45rem .8rem;
   border-radius:999px;
   font-weight:700;
