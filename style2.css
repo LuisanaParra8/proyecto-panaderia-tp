@@ -39,7 +39,7 @@
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
 .main-nav a{
   text-decoration:none; color:var(--col-cinco);
-  padding:.45rem .8rem;
+  padding:.40rem .8rem;
   border-radius:999px;
   font-weight:700;
   position: relative;
@@ -65,6 +65,7 @@
   transform: translateX(0);
   border-bottom: 2.5px solid #3b1d16;
 }
+
 
 .site-header{
   background: #be8b58;
