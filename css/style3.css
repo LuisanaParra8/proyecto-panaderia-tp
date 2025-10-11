@@ -180,6 +180,7 @@
   height: 0.25rem;
   background-color: var(--color-bg-primario);
   margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .redes{
@@ -190,7 +191,15 @@
 
 .redes:hover{
 
-  transform: scale(1.05);
+  
+
+}
+
+.icono-redes{
+  margin-bottom: 2rem;
+  border: 8px double var(--bg-tres);
+  border-radius: 40px;
+
 
 }
 .caja-formulario {
