@@ -63,7 +63,7 @@
 
 .main-nav a:hover::after{
   transform: translateX(0);
-  border-bottom: 3px solid #3b1d16;
+  border-bottom: 2.5px solid #3b1d16;
 }
 
 .site-header{
@@ -77,9 +77,9 @@
 
 .medialuna-flotante{
   position: absolute;
-  top: -25px;
-  left: 130px;
-  width: 180px;
+  top: -40px;
+  left: -30px;
+  width: 150px;
   z-index: 10;
   pointer-events: none;
   animation: flotar 3s ease-in-out infinite;
