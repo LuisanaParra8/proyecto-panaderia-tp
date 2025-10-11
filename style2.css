@@ -3,6 +3,19 @@
   --color-bg-secundario: #ebb67e;
   --color-texto-primario: #6F4E37;
   
+--col-uno: #b58756; 
+  --col-dos:        #c5ac88; 
+  --col-tres:   #674726; 
+  --col-cuatro:        #815a40; 
+  --col-cinco:  #32140c; 
+  --col-seis: #c7968d;
+  --col-siete:   #77550e; 
+  --col-ocho: #d2c58b;
+  --col-nueve: #b57a3f;
+  --col-diez:     #8b4113; 
+  --col-once: #d0c4a6;
+  --col-doce:  #ae8f72;
+  --color-bg-primario: #a1714f;
 
 
   --fuente-titulo: serif;
@@ -275,19 +288,20 @@
   opacity: 0.5;
 }
 
-.site-footer {
-  background-color: #4b2e05;   
+.site-footer{
+  background: linear-gradient(270deg, var(--col-tres), var(--col-diez), var(--col-tres));   
   color: white;            
-  padding: 20px 10px;
+  padding: 24px 16px;
   text-align: center;
   border-top: 3px solid var(--col-tres); 
   margin-top: 40px;
   border-radius: 12px 12px 0 0;
-  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 4px 8px rgba(0,0,0,0.2);
   background-size: 400% 400%;
   animation: footerGradient 20s ease infinite;
 }
-.site-footer .footer-card {
+
+.site-footer .footer-card{
   width: min(92%, var(--container));
   margin-inline: auto;
   padding: 8px 0;
@@ -296,7 +310,8 @@
   align-items: center;
   gap: .4rem;
 }
-.site-footer .footer-card p {
+
+.site-footer .footer-card p{
   margin: 0;
   display: flex;
   align-items: center;
@@ -304,26 +319,28 @@
   gap: .5rem;
   flex-wrap: wrap;
 }
-.site-footer i {
-  color: white;
-  margin-right: 8px;
+
+.site-footer i{
+  color: var(--col-dos);
   font-size: 1.15rem;
   transition: color .25s ease, transform .25s ease;
   transition: transform .3s ease, color .3s ease;
 }
-.site-footer i:hover {
+.site-footer i:hover{
   color: var(--col-uno);
   transform: translateY(-1px);
   transform: scale(1.3) rotate(-5deg);
 }
-.site-footer a {
-  color: white;
+
+/*Links*/
+.site-footer a{
+  color: var(--col-uno);
   text-decoration: none;
   font-weight: 600;
   transition: color .25s ease, text-decoration-color .25s ease;
 }
-.site-footer a:hover {
-  color: #fdd193;
+.site-footer a:hover{
+  color: #f1c587;
   text-decoration: underline;
 }
 @keyframes footerGradient {
