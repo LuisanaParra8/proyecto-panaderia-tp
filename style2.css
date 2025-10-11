@@ -15,6 +15,7 @@
   --col-diez:     #8b4113; 
   --col-once: #d0c4a6;
   --col-doce:  #ae8f72;
+  --col-trece: #7e5347;
   --color-bg-primario: #a1714f;
 
 
@@ -45,7 +46,7 @@
   overflow: hidden;
 }
 .main-nav a:hover{
-  background: var(--col-uno);
+  background: var(--col-trece );
   color: #f1c587;
   text-decoration:dashed;
 }
