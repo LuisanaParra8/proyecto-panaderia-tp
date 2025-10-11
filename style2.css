@@ -28,7 +28,7 @@
 
   --col-uno: #5C3D2E;     
   --col-tres:#674726;      
-  --shadow: 0 4px 6px rgba(0,0,0,0.2);
+  --shadow: 0 5px 6px rgba(0,0,0,0.2);
 
   --r-xl: 22px;
   --r-lg: 16px;
@@ -39,7 +39,7 @@
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
 .main-nav a{
   text-decoration:none; color:var(--col-cinco);
-  padding:.45rem .8rem;
+  padding:.51rem .8rem;
   border-radius:999px;
   font-weight:700;
   position: relative;
@@ -47,6 +47,7 @@
 }
 .main-nav a:hover{
   background: var(--col-trece );
+  background: #7e5347;
   color: #f1c587;
   text-decoration:dashed;
 }
@@ -79,7 +80,7 @@
 .medialuna-flotante{
   position: absolute;
   top: -8.0px;
-  left: 90px;
+  left: 89px;
   width: 150px;
   z-index: 10;
   pointer-events: none;
