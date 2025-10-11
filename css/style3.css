@@ -172,6 +172,7 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: var(--bg-cinco);
+    
 
 }
 
@@ -186,13 +187,8 @@
 .redes{
     text-align: center;
     overflow: hidden;
+
     
-}
-
-.redes:hover{
-
-  
-
 }
 
 .icono-redes{
