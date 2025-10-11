@@ -188,15 +188,16 @@
     text-align: center;
     overflow: hidden;
 
-    
 }
 
 .icono-redes{
   margin-bottom: 2rem;
   border: 8px double var(--bg-tres);
   border-radius: 40px;
-
-
+}
+.icono-redes:hover{
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .caja-formulario {
   width: 80%; 
