@@ -39,7 +39,7 @@
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
 .main-nav a{
   text-decoration:none; color:var(--col-cinco);
-  padding:.40rem .8rem;
+  padding:.45rem .8rem;
   border-radius:999px;
   font-weight:700;
   position: relative;
@@ -98,7 +98,7 @@
   display:flex;
  align-items:center;
   gap:1rem;
-  padding:.6rem 1rem;
+  padding:.6rem 4.5rem;
 }
 .container {
   width: min(92%, var(--container));
