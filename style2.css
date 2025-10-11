@@ -343,6 +343,7 @@
   color: #f1c587;
   text-decoration: underline;
 }
+ 
 @keyframes footerGradient {
   0% {background-position: 0% 50%;}
   50% {background-position: 100% 50%;}
