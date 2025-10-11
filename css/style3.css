@@ -29,16 +29,13 @@
   --container: 1000px;
 
 }
-.caja {
-  background-color: #ebb67e;
-   border: 2px  #ebb67e;
-    margin: 0px;
-    padding-bottom: 30px;
-    padding-top: 0%;
-    padding-left : 30px;
-    padding-right : 30px;
-    line-height: 1.55;
-    color: #29211c;
+*{box-sizing:border-box}
+html,body{margin:0; padding:0}
+body{
+  font-family: sans-serif;
+  background: #ebb67e; 
+  color: var(--ink);       
+  line-height: 1.55;
 }
 
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
