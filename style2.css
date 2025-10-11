@@ -78,8 +78,8 @@
 
 .medialuna-flotante{
   position: absolute;
-  top: -10px;
-  left: 40px;
+  top: -5px;
+  left: 90px;
   width: 150px;
   z-index: 10;
   pointer-events: none;
