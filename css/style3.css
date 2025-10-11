@@ -16,7 +16,6 @@
   --bg-primary: #a1714f;
 
 
-  --color-bg-primario: #a1714f;
   --color-bg-secundario: #f7e5b3;
   --color-texto-primario: #6F4E37;
 
@@ -87,8 +86,8 @@
 .cafe-flotante{
   position: absolute;
   top: -40px;  
-  left: -20px;
-  width: 140px;
+  left: -30px;
+  width: 150px;
   z-index: 10;
   pointer-events: none; 
   animation: flotar 3s ease-in-out infinite;
