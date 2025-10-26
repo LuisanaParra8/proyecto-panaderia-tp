@@ -245,24 +245,6 @@
     }
 }
 
-.boton-toggle {
-    cursor: pointer;
-    border: 2px solid var(--color-texto-primario);
-    padding: 0.75rem 1.5rem;
-    border-radius: 9999px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    background-color: transparent;
-    color: var(--color-texto-primario);
-    display: inline-block;
-    text-align: center;
-}
-
-.boton-toggle:hover {
-    background-color: var(--color-texto-primario);
-    color: white;
-} 
-
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
 
