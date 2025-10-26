@@ -19,6 +19,6 @@ window.onload = function() {
  const btnPasteleria = document.getElementById("btn-pasteleria");
  if (btnPasteleria) {
     btnPasteleria.addEventListener("click", function() {
-        
+        const extraPasteleria = document.querySelector(".extra-productos-pasteleria");
     });
   }
