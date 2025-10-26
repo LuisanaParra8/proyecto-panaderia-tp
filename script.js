@@ -13,12 +13,20 @@ window.onload = function() {
       }
     });
         
-  }
-};
+  
+}
 
  const btnPasteleria = document.getElementById("btn-pasteleria");
  if (btnPasteleria) {
-    btnPasteleria.addEventListener("click", function() {
+    btnPasteleria.addEventListener("click", function (){
         const extraPasteleria = document.querySelector(".extra-productos-pasteleria");
+        if (extraPasteleria.style.display === "grid") {
+        extraPasteleria.style.display = "none";
+        this.textContent = "Ver todos nuestros productos";
+      } else {
+        extraPasteleria.style.display = "grid";
+        this.textContent = "Ver menos";
+      }
     });
   }
+};
