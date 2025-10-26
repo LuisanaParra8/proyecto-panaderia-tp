@@ -18,4 +18,7 @@ window.onload = function() {
 
  const btnPasteleria = document.getElementById("btn-pasteleria");
  if (btnPasteleria) {
+    btnPasteleria.addEventListener("click", function() {
+        
+    });
   }
