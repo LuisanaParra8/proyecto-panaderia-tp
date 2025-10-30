@@ -187,7 +187,6 @@ body{
 
 .icono-redes{
   margin-bottom: 2rem;
-  border: 8px double var(--bg-tres);
   border-radius: 40px;
 }
 .icono-redes:hover{
