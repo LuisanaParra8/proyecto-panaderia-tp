@@ -195,6 +195,28 @@ img{ max-width:100%; display:block }
   transform: rotateY(180deg);
 }
 
+.btn-arriba{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--col-cinco);
+  color: var(--col-tres);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  display: none; 
+  transition: background-color 0.3s ease;
+}
+
+.btn-arriba:hover{
+  background-color: var(--col-cinco);
+}
+
+
 
 .historia-card{
   border: 2px solid var(--col-tres);
