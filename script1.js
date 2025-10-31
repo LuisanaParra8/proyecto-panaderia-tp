@@ -1,0 +1,1 @@
+const btnArriba = document.getElementById("btnArriba");
