@@ -86,7 +86,7 @@
 
 .cafe-flotante{
   position: absolute;
-  top: -40px;  
+  top: 100px;  
   left: -20px;
   width: 180px;
   z-index: 10;
