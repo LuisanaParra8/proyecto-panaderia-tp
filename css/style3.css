@@ -141,9 +141,8 @@ body{
   font-size: 1.1rem;
 }
 .contacto-info h4:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(1.06);
+  transition: transform 0.25s ease;
 }
 
 .font-body  { font-family: var(--fuente-cuerpo); }
@@ -184,7 +183,11 @@ body{
 
 .redes{
     text-align: center;
-    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
 .icono-redes{
@@ -291,7 +294,7 @@ section{
 
 .site-footer{ 
    background: var(--bg-tres);
-  color: var(--paper);            
+   color: var(--paper);
   padding: 24px 16px;
   text-align: center;
   border-top: 3px solid var(--bg-quince);
