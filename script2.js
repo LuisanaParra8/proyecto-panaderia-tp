@@ -1,4 +1,4 @@
-const btnArriba = document.getElementById("btn-Arriba");
+const btnArriba = document.getElementById("btnArriba");
 
 window.addEventListener("scroll", () => {
   if(window.scrollY>200){
