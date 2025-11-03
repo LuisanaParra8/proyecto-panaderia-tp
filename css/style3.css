@@ -13,6 +13,9 @@
   --bg-once: #d0c4a6;
   --bg-doce:  #ae8f72;
   --bg-trece:  #5C3D2E;
+  --bg-catorce: #4f2115;
+ 
+ 
   --bg-primary: #a1714f;
 
 
@@ -123,7 +126,7 @@ body{
   justify-content: center;
   gap: 1.2rem;
   background: #32140c;
-  border: 5px double #5C3D2E;
+  border: 5px double var(--bg-catorce);
   border-radius: 20px;
   box-shadow: var(--shadow);
   padding: 1rem;
@@ -134,8 +137,8 @@ body{
 .contacto-info h4 {
   margin: 0;
   font-weight: 500;
-  color: #ffffff;
-  font-size: 1rem;
+  color: white;
+  font-size: 1.1rem;
 }
 .contacto-info h4:hover {
   transform: translateY(-5px);
