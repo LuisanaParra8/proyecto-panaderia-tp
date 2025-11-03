@@ -155,13 +155,14 @@ body{
 }
 .titulo-principal {
     background: #be8b58;
-    font-family: var(--fuente-titulo);
-  font-size: 2.25rem;
-  font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
   margin-bottom: 4rem;
   border: 8px double var(--bg-tres);
   border-radius: 40px;
   color: var(--bg-cinco);
+  padding: 1rem, 2rem;
 
 }
 
