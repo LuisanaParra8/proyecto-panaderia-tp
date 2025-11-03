@@ -193,9 +193,10 @@ body{
 .icono-redes{
   margin-bottom: 2rem;
   border-radius: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .icono-redes:hover{
-  transform: translateY(-5px);
+  transform: scale(1.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .caja-formulario {
