@@ -298,3 +298,7 @@ section{
   background-size: 400% 400%;
   animation: footerGradient 20s ease infinite;
 }
+.btn-arriba{
+  position: fixed;
+  bottom: 30px;
+}
