@@ -210,7 +210,7 @@ body{
   padding: 20px;
   background:var(--bg-uno) ;
   border: 10px double var(--bg-tres);
-  border-radius: 40px;
+  border-radius: 15px;
   color: var(--bg-cinco);
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
@@ -248,20 +248,6 @@ body{
   transform: scale(1.05); 
 }
 
-.caja-horarios{
-    width: 80%; 
-  max-width: 500px; 
-  font-family: 'Times New Roman', Times, serif;
-  font-size: large;
-  text-align: center;
-  margin: 20px auto;  
-  padding: 20px; 
-  background:var(--bg-uno) ;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
-  border: 10px double var(--bg-tres);
-  border-radius: 40px;
-  color: var(--bg-cinco);
-}
 .mi-link {
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
