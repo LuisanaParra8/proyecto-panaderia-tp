@@ -286,8 +286,8 @@ section{
   text-align: center;
 }
 
-.site-footer{
-   background: linear-gradient(270deg, var(--col-tres), var(--col-diez), var(--col-tres));   
+.site-footer{ 
+   background: #5C3D2E;
   color: var(--paper);            
   padding: 24px 16px;
   text-align: center;
