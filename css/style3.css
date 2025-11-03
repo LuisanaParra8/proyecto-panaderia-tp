@@ -199,11 +199,12 @@ body{
   transform: scale(1.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.caja-horarios, 
 .caja-formulario {
   width: 80%; 
   max-width: 500px;
   font-weight:700;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
   font-size: large;
   margin: 20px auto;
   padding: 20px;
