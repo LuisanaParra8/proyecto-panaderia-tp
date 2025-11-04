@@ -125,8 +125,8 @@ body{
   display: flex;
   justify-content: center;
   gap: 1.2rem;
-  background: #32140c;
-  border: 5px double var(--bg-catorce);
+  background:var(--bg-cinco);
+  border: 5px double var(--bg-cinco);
   border-radius: 20px;
   box-shadow: var(--shadow);
   padding: 1rem;
@@ -307,8 +307,8 @@ section{
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color:#674726;
-  color: var(--col-tres);
+  background-color:var(--bg-cinco);
+  color: var(--bg-cinco);
   border: none;
   border-radius: 50%;
   width: 50px;
