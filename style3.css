@@ -13,14 +13,16 @@
   --bg-once: #d0c4a6;
   --bg-doce:  #ae8f72;
   --bg-trece:  #5C3D2E;
+  --bg-catorce: #4f2115;
+  --bg-quince: #432c15; 
+ 
   --bg-primary: #a1714f;
 
 
-  --color-bg-primario: #a1714f;
   --color-bg-secundario: #f7e5b3;
   --color-texto-primario: #6F4E37;
 
-  --fuente-titulo: serif;
+  --fuente-titulo:serif;
   --fuente-cuerpo:system-ui, Arial, sans-serif;
   --shadow: 0 4px 6px rgba(0,0,0,0.2);
 
@@ -30,16 +32,13 @@
   --container: 1000px;
 
 }
-.caja {
-  background-color: #ebb67e;
-   border: 2px  #ebb67e;
-    margin: 0px;
-    padding-bottom: 30px;
-    padding-top: 0%;
-    padding-left : 30px;
-    padding-right : 30px;
-    line-height: 1.55;
-    color: #29211c;
+*{box-sizing:border-box}
+html,body{margin:0; padding:0}
+body{
+  font-family:'Times New Roman', Times, serif;
+  background: #ebb67e; 
+  color: var(--ink);       
+  line-height: 1.55;
 }
 
 .main-nav{ margin-left:auto; display:flex; gap:1rem }
@@ -84,11 +83,11 @@
   position:relative;
 }
 
-.cafe-flotante{
+.medialuna-flotante{
   position: absolute;
-  top: 100px;  
-  left: -20px;
-  width: 180px;
+  top: -40px;  
+  left: -30px;
+  width: 150px;
   z-index: 10;
   pointer-events: none; 
   animation: flotar 3s ease-in-out infinite;
@@ -125,40 +124,28 @@
 .contacto-info {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.2rem;
   background: #32140c;
-  border: 5px double #5C3D2E;
-  border-radius: 15px;
-  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
-  padding: 0.8rem 1.2rem;
-  margin: 1pc auto;
-  width: 600px;
-  max-width: 90%; 
+  border: 5px double var(--bg-catorce);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  color: white;
+  text-align: center;
 }
 
 .contacto-info h4 {
   margin: 0;
   font-weight: 500;
-  color: #ffffff;
-  font-size: 1rem;
+  color: white;
+  font-size: 1.1rem;
 }
 .contacto-info h4:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(1.06);
+  transition: transform 0.25s ease;
 }
 
 .font-body  { font-family: var(--fuente-cuerpo); }
-
-.boton-ubicacion {
-  display: inline-block;
-  padding: 6px 15px;
-  background-color:#32140c; 
-  text-decoration: none;
-  color:#ffffff;  
-  border-radius: 6px;  
-  font-weight:500;
-}
 
 
 .titulo-principal-container {
@@ -166,15 +153,15 @@
   margin-bottom: 3rem;
 }
 .titulo-principal {
-    background: #be8b58;
-    font-family: var(--fuente-titulo);
-  font-size: 2.25rem;
-  font-weight: bold;
+    background-color: var(--bg-tres);
+    font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
   margin-bottom: 4rem;
-  border: 8px double var(--bg-tres);
-  border-bottom-right-radius: 40px;
-  border-bottom-left-radius: 40px;
-  color: var(--bg-cinco);
+  border: 5px double var(--bg-quince);
+  border-radius: 40px;
+  color: white;
+  padding: 1rem, 2rem;
 
 }
 
@@ -182,42 +169,37 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: var(--bg-cinco);
+    
 
 }
 
 .linea-decorativa {
   width: 6rem;
   height: 0.25rem;
-  background-color: var(--color-bg-primario);
+  background-color: var(--bg-cinco);
   margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .redes{
     text-align: center;
-    overflow: hidden;
-    display: flex;             
-    justify-content: center;  
-    gap: 15px;            
-    padding: 10px 0;
-    
-}
-
-.redes:hover{
-
-  transform: scale(1.05);
-
-}
-.icono-redes {
-  transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  display: inline-flex;
-  align-items: center;
+    display: flex;
   justify-content: center;
-  padding: 10px;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
-.icono-redes:hover {
-  transform: scale(1.2);
+.icono-redes{
+  margin-bottom: 2rem;
+  border-radius: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.icono-redes:hover{
+  transform: scale(1.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.caja-horarios, 
 .caja-formulario {
   width: 80%; 
   max-width: 500px;
@@ -225,10 +207,10 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   margin: 20px auto;
-  padding: 20px;
+  padding: 2rem;
   background:var(--bg-uno) ;
-  border: 10px double var(--bg-tres);
-  border-radius: 40px;
+  border: 6px double var(--bg-tres);
+  border-radius: 15px;
   color: var(--bg-cinco);
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
@@ -239,6 +221,7 @@
   margin-top: 15px;
   border: none;
   padding: 10px;
+  
 }
 .formulario input,
 .formulario textarea {
@@ -265,52 +248,63 @@
   transform: scale(1.05); 
 }
 
-.caja-horarios{
-    width: 80%; 
-  max-width: 500px; 
+.mi-link {
+  text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
-  text-align: center;
-  margin: 20px auto;  
-  padding: 20px; 
-  background:var(--bg-uno) ;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
-  border: 10px double var(--bg-tres);
-  border-radius: 40px;
-  color: var(--bg-cinco); 
-}
-.caja-horarios h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  border-bottom: 2px solid var(--bg-tres); 
-  padding-bottom: 5px;
-}
-.horario-lista {
+  color: white;
   display: flex;
-  flex-direction: column;
-  gap: 10px; 
+  justify-content: center;
+  font-weight:600;
+  background-color: var(--bg-cinco); 
+   margin: 20px auto;  
+  padding: 20px;  
+  cursor: pointer;
+  border-radius: 30px;  
+  transition: background-color 0.3s, transform 0.2s;
 }
-
-.horario-dia {
-  display: flex;
-  justify-content: space-between;
-  border-radius: 10px;
-  transition: 0.3s, transform 0.2s;
-}
-.horario-dia:hover {
-  background: rgba(255, 255, 255, 0.05); 
-  transform: translateY(-2px);
+.mi-link:hover {
+  background-color:var(--bg-cuatro); 
+   transform: scale(1.05); 
 }
 h2,h3{
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   text-align: center;
 }
 .mensaje-enviado{
-   font-family: 'Times New Roman', Times, serif;
+   font-family:'Times New Roman', Times, serif;
   text-align: center;
 }
 section{
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   text-align: center;
 }
 
+.site-footer{ 
+   background: var(--bg-tres);
+   color: var(--paper);
+  padding: 24px 16px;
+  text-align: center;
+  border-top: 3px solid var(--bg-quince);
+  margin-top: 40px;
+  border-radius: 12px 12px 0 0;
+  box-shadow: inset 0 4px 8px rgba(0,0,0,0.2);
+  background-size: 400% 400%;
+  animation: footerGradient 20s ease infinite;
+}
+.btn-arriba{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #32140c;
+  color: var(--col-tres);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  display: none; 
+  transition: background-color 0.3s ease;
+}
