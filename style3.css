@@ -23,7 +23,7 @@
   --color-texto-primario: #6F4E37;
 
   --fuente-titulo:serif;
-  --fuente-cuerpo:system-ui, Arial, sans-serif;
+  --fuente-cuerpo:'Times New Roman', Times, serif;
   --shadow: 0 4px 6px rgba(0,0,0,0.2);
 
 
@@ -154,7 +154,7 @@ body{
 }
 .titulo-principal {
     background-color: var(--bg-tres);
-    font-family: 'Poppins', sans-serif;
+    font-family:'Times New Roman', Times, serif;
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 4rem;
