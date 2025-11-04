@@ -119,7 +119,7 @@ body{
 .container {
   width: min(92%, var(--container));
   margin-inline: auto;
-}
+};
 
 .contacto-info {
   display: flex;
@@ -307,7 +307,7 @@ section{
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #32140c;
+  background-color:#674726;
   color: var(--col-tres);
   border: none;
   border-radius: 50%;
