@@ -164,6 +164,10 @@ body{
   padding: 1rem, 2rem;
 
 }
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
 
 .redes-titulo{
     text-align: center;
@@ -215,6 +219,13 @@ body{
   color: var(--bg-cinco);
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
+.caja-horarios h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--bg-tres); 
+  padding-bottom: 5px;
+}
+  
 .formulario input[type="submit"] {
   background: var(--bg-cinco);
   color: white;
