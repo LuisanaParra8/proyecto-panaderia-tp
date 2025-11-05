@@ -30,3 +30,4 @@ window.onload = function() {
     });
   }
 };
+const btnArriba = document.getElementById("btnArriba");
