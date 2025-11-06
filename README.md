@@ -18,6 +18,7 @@ desarrollado con HTML, CSS y próximamente JS.<br/>
 ## Páginas creadas parte 2
 - script.js
 - script1.js
+- script2.js
 
 ---
 
